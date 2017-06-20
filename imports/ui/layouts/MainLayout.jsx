@@ -14,9 +14,3 @@ export default class MainLayout extends Component {
     );
   }
 }
-
-MainLayout.propTypes = {
-  currentUser: React.PropTypes.object,
-  children: React.PropTypes.element,
-  isLoggedIn: React.PropTypes.bool,
-};

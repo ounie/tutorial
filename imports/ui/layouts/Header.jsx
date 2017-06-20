@@ -5,11 +5,11 @@ export default class Header extends Component {
 
   render() {
     return (
-      <div>
-        <Link to="/">Home</Link>
-        <Link to="/second">Second Page</Link>
-        <Link to="/third">Third Page</Link>
-      </div>
+      <ul className="nav nav-pills">
+        <li className="active"><Link to="/">Home</Link></li>
+        <li><Link to="/second" id="blue">Second</Link></li>
+        <li><Link to="/third" className="red">Third</Link></li>
+      </ul>
     )
   }
 }
